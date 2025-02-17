@@ -12,7 +12,7 @@ XXX focus on automation and especially CI/CD
 
 ### AWS
 
-Kubernetes Service Accounts to AWS IAM role, a.k.a. [**I**AM **R**oles for Kubernetes **S**ervice **A**ccounts (IRSA)](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html)
+Kubernetes Service Accounts to AWS IAM role, a.k.a. [**I**AM **R**oles for Kubernetes **S**ervice **A**ccounts (IRSA)](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html), [mutating webhook](https://github.com/aws/amazon-eks-pod-identity-webhook)
 
 GitLab CI to AWS ([GitLab official documentation](https://docs.gitlab.com/ee/ci/cloud_services/aws/))
 
