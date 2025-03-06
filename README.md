@@ -1,12 +1,6 @@
 # Awesome Workload Identity
 
-XXX workload identity
-
-XXX based on OIDC
-
-XXX avoid explicit credentials between services
-
-XXX focus on automation and especially CI/CD
+Workload Identity aims to avoid using explicit credentials. Authentication is performed through an OpenID Connect provider which is trusted by both parties.
 
 ## By Consumer
 
@@ -57,6 +51,12 @@ GitLab user against Kubernetes ([blog](https://www.hoelzel.it/kubernetes/2023/04
 [GitLab OIDC provider](https://docs.gitlab.com/ee/integration/openid_connect_provider.html)
 
 [Keycloak](https://www.keycloak.org/)
+
+[dex](https://dexidp.io/)
+
+[zitadel](https://github.com/zitadel)
+
+[Kubernetes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/#service-account-issuer-discovery)
 
 ## Tools
 
